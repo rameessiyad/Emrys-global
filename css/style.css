@@ -16,3 +16,30 @@ body {
     --text-head-color: #23282d;
     --text-paragraph-color: #222222;
 }
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.text-head-color {
+    color: var(--text-head-color);
+}
+
+.text-paragraph-color {
+    color: var(--text-paragraph-color);
+}
+
+
+
+.header {
+    background-color: var(--main-color);
+    padding: 20px;
+}
