@@ -7,3 +7,12 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+/* variables */
+:root {
+    --primary-color: #f45c2c;
+    --main-color: #293742cc;
+    --secondary-color: #2c3b94;
+    --text-head-color: #23282d;
+    --text-paragraph-color: #222222;
+}
