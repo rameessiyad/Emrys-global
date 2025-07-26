@@ -19,7 +19,7 @@ body {
     transition: all ease 0.3s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #fff;
     color: var(--primary-color);
     outline: 1px solid var(--primary-color);
@@ -50,6 +50,11 @@ nav ul li:hover {
     height: 2px;
     width: 100%;
     background-color: var(--primary-color);
+}
+
+/* contact form styles */
+.form-input:focus {
+    outline: 1px solid var(--primary-color)
 }
 
 /* footer styles */
