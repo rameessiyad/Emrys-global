@@ -11,6 +11,7 @@ body {
     --text-paragraph-color: #222222;
 }
 
+
 .button {
     background-color: var(--primary-color);
     padding: 10px 20px;
@@ -26,8 +27,14 @@ body {
 }
 
 .header {
-    background-color: var(--main-color);
+    background: transparent;
     padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    transition: all ease 0.3s;
 }
 
 nav ul li:hover {
@@ -43,7 +50,6 @@ nav ul li:hover {
 
 .nav-underline:hover::after {
     content: "";
-    /* padding-bottom: 4px; */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -51,6 +57,17 @@ nav ul li:hover {
     width: 100%;
     background-color: var(--primary-color);
 }
+
+/* hero section style */
+#hero-section {
+    background-image: url("../assets/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
 
 /* contact form styles */
 .form-input:focus {
