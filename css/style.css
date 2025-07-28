@@ -46,6 +46,15 @@ body {
     color: var(--text-paragraph-color);
 }
 
+.no-scrollbar ::-webkit-scrollbar{
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
 nav ul li:hover {
     color: var(--primary-color);
     cursor: pointer;
