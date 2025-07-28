@@ -18,6 +18,7 @@ body {
     color: #fff;
     font-weight: 500;
     transition: all ease 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -60,7 +61,9 @@ nav ul li:hover {
 
 /* hero section style */
 #hero-section {
-    background-image: url("../assets/hero.jpg");
+    background-image:
+        linear-gradient(rgba(1, 1, 78, 0.236), rgba(2, 2, 29, 0.367)),
+        url("../assets/hero.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
