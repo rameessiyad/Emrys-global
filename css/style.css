@@ -38,6 +38,14 @@ body {
     transition: all ease 0.3s;
 }
 
+.text-head {
+    color: var(--text-head-color);
+}
+
+.text-p {
+    color: var(--text-paragraph-color);
+}
+
 nav ul li:hover {
     color: var(--primary-color);
     cursor: pointer;
